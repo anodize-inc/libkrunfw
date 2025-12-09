@@ -479,8 +479,8 @@ CONFIG_HALTPOLL_CPUIDLE=y
 #
 # Binary Emulations
 #
-# CONFIG_IA32_EMULATION is not set
-# CONFIG_X86_X32_ABI is not set
+CONFIG_IA32_EMULATION=y
+CONFIG_X86_X32_ABI=y
 # end of Binary Emulations
 
 CONFIG_HAVE_KVM=y
